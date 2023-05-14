@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ChatWithEspreso</string>
+    <string name="hint_message">Type your message</string>
+    <string name="content_description_send_button">Press to Send</string>
+</resources>
