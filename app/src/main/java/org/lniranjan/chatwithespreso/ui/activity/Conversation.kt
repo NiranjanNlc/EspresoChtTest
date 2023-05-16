@@ -12,5 +12,10 @@ class Conversation : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_conversation)
+        binding.lifecycleOwner = this
+        binding.executePendingBindings()
+        binding.buttonSend.setOnClickListener {
+            binding.recyclerView.adapter?.notifyDataSetChanged()
+        }
     }
 }
