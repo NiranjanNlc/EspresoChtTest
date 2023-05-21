@@ -13,6 +13,7 @@ import androidx.test.espresso.matcher.ViewMatchers.*
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.*
 import androidx.test.ext.junit.rules.ActivityScenarioRule
+import androidx.test.filters.LargeTest
 import junit.framework.Assert.assertEquals
 import org.junit.Before
 import org.junit.Rule
@@ -25,6 +26,7 @@ import org.mockito.kotlin.verify
 
 
 @RunWith(AndroidJUnit4::class)
+@LargeTest
 class ConversationTest {
 
     @Rule
