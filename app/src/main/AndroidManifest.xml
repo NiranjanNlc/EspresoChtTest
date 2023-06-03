@@ -36,7 +36,7 @@
         </activity>
         <activity
             android:exported="false"
-            android:name=".ui.activity.ListOfChatActivity">
+            android:name=".ui.activity.Home">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
